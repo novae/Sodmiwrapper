@@ -1,4 +1,7 @@
 SodmiWrapperEngine::Application.routes.draw do
+  get "static_pages/Inicio"
+  get "static_pages/Lecciones"
+  get "static_pages/Contacto"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
